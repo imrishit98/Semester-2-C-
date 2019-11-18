@@ -1,0 +1,15 @@
+﻿  Ch12Lab.cpp
+c:\rishit\canadore sem 2\c++2\labs\ch12\ch12lab\ch12lab.cpp(21): error C2512: 'std::out_of_range': no appropriate default constructor available
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\stdexcept(129): note: see declaration of 'std::out_of_range'
+c:\rishit\canadore sem 2\c++2\labs\ch12\ch12lab\ch12lab.cpp(21): error C2614: 'OutOfRangeException': illegal member initialization: 'runtime_error' is not a base or member
+c:\rishit\canadore sem 2\c++2\labs\ch12\ch12lab\ch12lab.cpp(26): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+c:\rishit\canadore sem 2\c++2\labs\ch12\ch12lab\ch12lab.cpp(47): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\rishit\canadore sem 2\c++2\labs\ch12\ch12lab\ch12lab.cpp(79): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\rishit\canadore sem 2\c++2\labs\ch12\ch12lab\ch12lab.cpp(105): error C2440: 'default argument': cannot convert from 'int' to 'Meal'
+  c:\rishit\canadore sem 2\c++2\labs\ch12\ch12lab\ch12lab.cpp(105): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+c:\rishit\canadore sem 2\c++2\labs\ch12\ch12lab\ch12lab.cpp(105): error C2440: 'default argument': cannot convert from 'int' to 'EntertainmentAct'
+  c:\rishit\canadore sem 2\c++2\labs\ch12\ch12lab\ch12lab.cpp(105): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+c:\rishit\canadore sem 2\c++2\labs\ch12\ch12lab\ch12lab.cpp(125): error C3867: 'Meal::getPrice': non-standard syntax; use '&' to create a pointer to member
+c:\rishit\canadore sem 2\c++2\labs\ch12\ch12lab\ch12lab.cpp(125): error C2296: '*': illegal, left operand has type 'double (__thiscall Meal::* )(void)'
+c:\rishit\canadore sem 2\c++2\labs\ch12\ch12lab\ch12lab.cpp(137): error C2512: 'Party': no appropriate default constructor available
+  c:\rishit\canadore sem 2\c++2\labs\ch12\ch12lab\ch12lab.cpp(93): note: see declaration of 'Party'
